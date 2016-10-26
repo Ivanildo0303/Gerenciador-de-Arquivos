@@ -6,12 +6,15 @@
 
 package gerenciador.de.arquivos;
 
+import java.util.ArrayList;
+
 /**
  *
  * @author Ivanildo
  */
 public class Controlador {
 
+    static ArrayList<ThreadServidor> Servidores ;   
     /**
      * @param args the command line arguments
      */
